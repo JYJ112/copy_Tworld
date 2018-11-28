@@ -45,7 +45,7 @@
         display: flex;
         align-items: center;
         width: 100%;
-        .iconA{ 
+        .icon{ 
             display: flex;
             align-items: center;
             justify-content: flex-start;
@@ -54,26 +54,47 @@
             p{
                 margin: 0 auto;
             }
+        }
+        .textbox{
+            width: 60%;
+            .title{
+                display: block;
+                margin: 0 10px;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                background-color: #8a8a8a;  
+            }
+
+        }
+    }   
+}
+
+
+#todo{
+    .container{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        .icon{ 
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            width: 20%;
+            background-color: #CECECE;
+            p{
+                margin: 0 auto;
+            }
+    
         }
         .title{
             display: block;
             width: 60%;
             margin: 0 10px;
             white-space: normal;
-            overflow: hidden;
-            text-overflow: ellipsis;
+            word-break: break-all;
+            // text-overflow: ellipsis;
             background-color: #8a8a8a;  
-        }
-        .iconB{ 
-            display: flex;
-            align-items: center;
-            justify-content: flex-start;
-            width: 20%;
-            background-color: #CECECE;
-            p{
-                margin: 0 auto;
-            }
         }
     }   
 }
-
