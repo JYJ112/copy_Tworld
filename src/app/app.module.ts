@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { TworldComponent } from './tworld/tworld.component';
 import { SallyComponent } from './sally/sally.component';
 import { ChocoaComponent } from './chocoa/chocoa.component';
+import { FlexComponent } from './flex/flex.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TworldComponent,
     SallyComponent,
-    ChocoaComponent
+    ChocoaComponent,
+    FlexComponent
   ],
   imports: [
     BrowserModule,
