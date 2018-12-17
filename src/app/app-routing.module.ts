@@ -4,12 +4,14 @@ import { SallyComponent } from './sally/sally.component';
 import { TworldComponent } from './tworld/tworld.component';
 import { ChocoaComponent } from './chocoa/chocoa.component';
 import { FlexComponent } from './flex/flex.component';
+import { MovieTemplateComponent } from './movie-template/movie-template.component';
 
 const routes: Routes = [
     { path: 'sally', component: SallyComponent },
     { path: 'tworld', component: TworldComponent },
     { path: 'chocoa', component: ChocoaComponent },
-    { path: 'flex', component: FlexComponent }
+    { path: 'flex', component: FlexComponent },
+    { path: 'movie_template', component: MovieTemplateComponent }
 ];
 
 @NgModule({

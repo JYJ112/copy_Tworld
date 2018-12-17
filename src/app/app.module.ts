@@ -7,6 +7,7 @@ import { TworldComponent } from './tworld/tworld.component';
 import { SallyComponent } from './sally/sally.component';
 import { ChocoaComponent } from './chocoa/chocoa.component';
 import { FlexComponent } from './flex/flex.component';
+import { MovieTemplateComponent } from './movie-template/movie-template.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { FlexComponent } from './flex/flex.component';
     TworldComponent,
     SallyComponent,
     ChocoaComponent,
-    FlexComponent
+    FlexComponent,
+    MovieTemplateComponent
   ],
   imports: [
     BrowserModule,
